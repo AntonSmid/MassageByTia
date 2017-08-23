@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Massage by Tia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style> 
+    /*    23:35 - nadaljuj    */
+    
+    body {
+      background: #f1f0d1;
+      font-family: Verdana, Tahoma, sans-serif;
+      font-size: 18px;
+      overflow: auto;
+    }
+    
+    #wrapper {
+      margin: 0 auto;
+      max-width: 1020px;
+      width: 98%;
+      background: #fefbe8;
+      border: 1px solid #878e63;
+      border-radius: 2px;
+      box-shadow: 0 0 10px 0 rgba(12, 3, 25, 0.8);
+      
+    }
+    
+    h1, h2, h3 {
+      text-align: center;
+      padding-left: 5%;
+      color: #878e63;
+    } 
+    
+    p {
+      padding: 2%;
+      color: #878e63;
+    }
+    
+    img {
+      text-align: center;
+      max-width: 100%;
+      height: auto;
+      width: auto;
+    }
+    
+    .centre {
+      text-align: center;
+    }
+    
+    .para {
+      text-indent: 50px;
+    }
+    
+    #callout {
+      width: 100%;
+      height: auto;
+      background: #878e63;
+      overflow: hidden;
+    }
+    
+    #callout p {
+      text-align: right;
+      color: #f1f0d1;
+      font-size: 16px;
+      padding: 0.1% 5% 0 0;
+    }
+    
+    #callout p a {
+      color: #f1f0d1;
+      text-decoration: none;
+    }
+    
+    header {
+      width: 98%;
+      min-height: 125px;
+      text-align: center;
+      padding: 5px;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 50px;
+      
+    }
+    
+    nav ul li {
+      float: left;
+      border: 1.2px solid #878e63;
+      width: 15%;
+    }
+    
+    nav ul li a {
+      display: block;
+      background: #f1f0d1;
+      // padding: 10px 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center;
+      font-size: 18px;
+      color: #878e63;
+      
+    }
+    
+    nav ul li a:hover, nav ul li.active a {
+      background: #878e63;
+      color: #f1f0d1;
+    }
+    
+    .clearfix {
+      clear: both;
+    }
+    
+    .banner img {
+      width: 100%;
+      border-top: 1px solid #878e63;
+      border-bottom: 1px solid #878e63;
+      // margin-top: -1px;
+    }
+    
+    .left-col {
+      float: left;
+      width: 55%;
+      margin: -2% 0.6% 1% 0.8%;
+    }
+    
+    .sidebar {
+      width: 40%;
+      float: right;
+      margin: 1.8%;
+      text-align: center;
+    }
+    
+    
+    .therapy {
+      float: left;
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
+      padding: 1%;
+    }
+ 
+    .section {
+      width: 29%;
+      float: left;
+      margin: 2%;
+      text-align: center;    
+    }
+    
+    footer {
+      width: 100%;
+      background: #878e63;
+      overflow: hidden;
+    }
+    
+    footer p, footer h3 {
+      color: #f1f0d1;
+    }
+    
+
+    footer p a {
+      color: #f1f0d1;
+      text-decoration: none;
+    }
+    
+    footer ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    footer ul li {
+      display: inline;
+
+
+    }
+    
+    footer ul li img {
+      width: 50px;
+      
+    }
+    
+    footer ul li a {
+      text-decoration: none;
+    }
+    
+    
+    /* --- -- MEDIA -- --- */
+    
+   
+    
+    @media screen and (max-width: 740px){
+      body {
+        
+      }
+      
+      nav {
+
+      }
+      
+      nav ul {
+        padding-left: 0.1%;
+      }
+      
+      nav ul li {
+       border: 0.2px solid #878e63;
+        width: 49.6%;
+      }
+      
+      
+      .left-col {
+        width: 100%;
+        margin: 0;
+        padding: 0px;
+        
+      }
+      
+      .sidebar {
+        width: 100%;
+        padding: 0;
+        margin: 5px;
+      }
+      
+      .section {
+        width: 100%;
+        margin: 0;
+        
+      }
+
+    }
+    
+    
+     @media screen and (max-width: 478px) {
+      body {
+        font-size: 14px;
+      }   
+      nav ul {
+        padding-left: 0;
+      }
+      
+      nav ul li {
+        width: 100%;
+        border-left: 0;
+        border-right: 0;
+      }
+      
+       nav ul li a {
+        font-size: 16px;
+       }
+      
+    }
+    
+  </style>
+  
+</head>
+
+<body>
+ 
+ <div id="wrapper">
+   <div id="callout">
+     <p>Call us at <b>215-555-5555</b> </p>
+   </div>
+   
+   <header>
+     <a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/massagelogo.png" alt="Massage by Tia" title="Massage by Tia"> </a>
+   </header>
+   
+   <nav>
+      <ul>
+       <li class="active"><a href="#">Home</a></li>
+       <li><a href="#">Facility</a></li>
+       <li><a href="#">Services</a></li>
+       <li><a href="#">Pricing</a></li>
+       <li><a href="#">Hours</a></li>
+       <li><a href="#">Contact</a></li>
+      </ul>
+   </nav>
+   
+   <div class="clearfix"></div>
+   
+   <div class="banner">
+     <img src="http://www.w3newbie.com/wp-content/uploads/massagebanner.png" alt="Massage">
+   </div>
+   
+   <div class="centre">  
+     <img src="http://www.w3newbie.com/wp-content/uploads/three_sayings.png" alt="Sayings">
+   </div>
+   
+   <section class="left-col">
+     <p class="para">Our goal at Massage by Tia is to provide a quiet retreat in Philadelphia where you can think you've traveled to a far-off place surraunded by lush and tropical vegetation. Our specious massage room has its own distinct feel with special care given to provideng a unique session to meet the needs of the individual client. Our tables are heated, provide soft padding for comfort, and we use the best linens available in the business today.</p>
+     <p class="para">Our therapists mantain their professional knowledge and Pennsylvania State License by attending local and regional certified and advanced training classes in the art of massage. </p>
+   </section>
+   
+   <aside class="sidebar">
+      <div class="therapy">
+         <img src="http://www.w3newbie.com/wp-content/uploads/therapist.jpg" alt="therapist">
+      </div>
+   </aside>
+   
+   <div class="clearfix"></div>
+   
+   <div class="section">
+     <h3>Private Message Area</h3>
+     <img src="http://www.w3newbie.com/wp-content/uploads/private.png" alt="private">
+     <p>Our private rooms are to all guests upon booking your relaxation session in advance. Ourmasseuses will cater to every need you and your guest have in our private rooms. Come here to relax and renew your mind, body and spirit with the serenity of being free of all distractions.</p>
+   </div>
+   
+   <div class="section">
+     <h3>Sauna &amp; Steam Room</h3>
+     <img src="http://www.w3newbie.com/wp-content/uploads/sauna-steam.png" alt="sauna">
+     <p>Our state of the art souna and steam room are offrered free to our membered clients and at affordable rates to those who want to open up their pore with a healthy seat before or after our massage services put you into an even more relaxing state.</p>
+   </div>
+   
+   <div class="section">
+     <h3>Our Resort Retreat</h3>
+     <img src="http://www.w3newbie.com/wp-content/uploads/retreat.png" alt="retreat">
+     <p>For eight weeks out of the year, Tia and a select few of her top masseuses travel to Tahiti to host and offer a resort style relaxation getaway for clients who are looking for the absolute most astonishing vacation they can experience. Call us for details on our get aways.</p>
+   </div>
+   
+   <div class="clearfix"></div>
+   
+   <div class="centre">  
+     <img src="http://www.w3newbie.com/wp-content/uploads/ease.png" alt="Sayings">
+   </div>
+   
+   <footer>
+    
+     <div class="section">
+      <p>Massage by Tia</p>
+      <p><b> 215-555-5555 </b> <br>
+      1700 Chesnut Street <br>
+      Philadelphia, Pa 19100 <br>
+      tia@massage.com </p>
+       
+     </div>
+     
+     <div class="section">
+     <p>Connect With Us!</p>
+      <ul>
+        <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png" alt=""> </a> </li>
+        <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png" alt=""> </a> </li>
+        <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png" alt=""> </a> </li>
+        <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png" alt=""> </a> </li>
+      </ul>
+       
+     </div>
+     
+     <div class="section">
+       <img src="http://www.w3newbie.com/wp-content/uploads/plant.png" alt="">
+     </div>
+     
+   </footer>
+   
+   <div class="clearfix"></div>
+   
+ </div> <!-- end wrapper -->
+ 
+ <p class="centre"> made by &middot; anton smid &middot; aug., 2017 </p>
+  
+</body>
+
+</html>
